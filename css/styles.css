@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #F2F5F9;
+}
 .content {
     width: 100%;
     display: flex;
@@ -13,6 +15,7 @@
 }
 
 .card {
+    background-color: #fff;
     border-radius: 16px;
     max-width: 420px;
     display: flex;
@@ -71,7 +74,7 @@ h3 {
 }
 
 .user--image {
-    border: 3px solid #F2F5F9;
+    border: 3.5px solid #F2F5F9;
     border-radius: 50%;
     width: 45px;
     height: 45px;
